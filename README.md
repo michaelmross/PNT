@@ -2,8 +2,6 @@
 
 Compute and verify the existence of semiprimes of the form *kp* (with *p* prime) in quadratic intervals *(n², (n+1)²)*.
 
-Companion code for: **"Every Quadratic Interval Contains Semiprimes 2p and 3p"** (M. M. Ross, 2026).
-
 ## Background
 
 For a prime *k*, define *S_k(n)* as the count of semiprimes *kp* in the interval *(n², (n+1)²)*, where *p* is prime. Equivalently, *S_k(n)* counts primes in *(n²/k, (n+1)²/k)*.
