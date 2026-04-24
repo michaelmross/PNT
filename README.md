@@ -36,10 +36,10 @@ Computes exact *S_k(n)* for every interval via segmented sieve. Slower; practica
 
 ```bash
 # Full counts for k=2,3,5,7,11 to 100,000 with CSV output
-python kp_semiprimes.py --nmax 100000 --count --kvals 2,3,5,7,11 --output counts_100k.csv
+python kp_semiprimes.py --nmax 100000 --kvals 2,3,5,7,11 --output counts_100k.csv
 
 # Counts for k=2,3 only
-python kp_semiprimes.py --nmax 200000 --count --output counts_200k.csv
+python kp_semiprimes.py --nmax 200000 --output counts_200k.csv
 ```
 
 ### Resuming or splitting runs
